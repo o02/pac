@@ -16,11 +16,8 @@
 [proxy_list]
 
 # MyList
-(^|\.)wlmonitor\.m\.jd\.com$
 (^|\.)plogin\.m\.jd\.com$
 (^|\.)uranus\.jd\.com$
-(^|\.)mars\.jd\.com$
-(^|\.)api\.m\.jd\.com$
 (^|\.)wlogin\.m\.jd\.com$
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
