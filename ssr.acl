@@ -26,3 +26,8 @@
 (^|\.)blackhole\.m\.jd\.com$
 (^|\.)google\.com$
 (^|\.)cmpassport\.com$
+
+#*******************************直连列表***************************************
+[bypass_list]
+(^|\.)jcapmonitor\.m\.jd\.com$
+(^|\.)jcap\.m\.jd\.com$
