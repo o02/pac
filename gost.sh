@@ -333,7 +333,7 @@ function read_d_port() {
     read -p "请输入host:" flag_d
   else
     echo -e "*******************************************************************"
-    echo -e "请问你要将本机从${flag_b}接收到的流量转发向${flag_c}的哪个端口?"
+    echo -e "请问你要将本机从 ${flag_b} 这端口接收到的流量转发向目标的哪个端口?"
     read -p "请输入: " flag_d
     if [[ ${is_cert} == [Yy] ]]; then
       flag_d="$flag_d?secure=true"
@@ -346,8 +346,8 @@ function writerawconf() {
 function rawconf() {
   read_protocol
   read_s_port
-  read_d_ip
   read_d_port
+  read_d_ip
   writerawconf
 }
 function eachconf_retrieve() {
